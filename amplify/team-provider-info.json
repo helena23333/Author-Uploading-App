@@ -16,7 +16,10 @@
         "authoruploadingappamplify": {}
       },
       "function": {
-        "authoruploadingappamplifyPostConfirmation": {}
+        "authoruploadingappamplifyPostConfirmation": {
+          "deploymentBucketName": "amplify-authoruploadingappampl-staging-191651-deployment",
+          "s3Key": "amplify-builds/authoruploadingappamplifyPostConfirmation-4e637a51585543675144-build.zip"
+        }
       }
     }
   }
