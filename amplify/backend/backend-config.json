@@ -20,5 +20,11 @@
       "dependsOn": [],
       "customAuth": false
     }
+  },
+  "storage": {
+    "authoruploadingapppics": {
+      "service": "S3",
+      "providerPlugin": "awscloudformation"
+    }
   }
 }
