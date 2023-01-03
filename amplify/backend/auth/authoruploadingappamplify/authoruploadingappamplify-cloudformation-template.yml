@@ -9,6 +9,18 @@ Parameters:
     Type: String
 
   
+  
+  
+  functionauthoruploadingappamplifyPostConfirmationArn:
+    Type: String
+    Default: functionauthoruploadingappamplifyPostConfirmationArn
+  
+  functionauthoruploadingappamplifyPostConfirmationName:
+    Type: String
+    Default: functionauthoruploadingappamplifyPostConfirmationName
+  
+  
+  
 
     
   identityPoolName:
@@ -147,6 +159,31 @@ Parameters:
             
         
   dependsOn:
+    Type: CommaDelimitedList
+      
+  triggers:
+    Type: String
+  
+            
+  
+  hostedUI:
+    Type: String
+            
+            
+      
+  parentStack:
+    Type: String
+        
+  authTriggerConnections:
+    Type: String
+  
+            
+  
+  breakCircularDependency:
+    Type: String
+            
+        
+  permissions:
     Type: CommaDelimitedList
       
 Conditions:
